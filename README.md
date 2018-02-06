@@ -10,6 +10,7 @@ Assignment:
 	Only implement a couple of the features in the API.
 	
 Future build:
+	
 	* Implement all features of the API in order to learn how to use multiple 
 	lists(RecyclerView, CardView, etc) as well as performing multiple API calls
 	through Retrofit 2.  
