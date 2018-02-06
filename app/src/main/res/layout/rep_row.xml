@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardCornerRadius="6dp"
+    card_view:cardElevation="3dp"
+    card_view:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="vertical"
+        android:padding="5dp">
+        <!-- TextView Rep Name -->
+        <TextView
+            android:id="@+id/txt_rep_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <!-- TextView Rep State -->
+        <TextView
+            android:id="@+id/txt_rep_party"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- TextView Rep State -->
+        <TextView
+            android:id="@+id/txt_rep_state"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- TextView Rep Phone -->
+        <TextView
+            android:id="@+id/txt_rep_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- TextView Rep Office -->
+        <TextView
+            android:id="@+id/txt_rep_office"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- TextView Rep Website -->
+        <TextView
+            android:id="@+id/txt_rep_link"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
